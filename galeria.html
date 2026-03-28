@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Centro Educativo Luis Landa</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Centro Educativo Luis Landa</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="donaciones.html">Donaciones</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="galeria">
+            <div class="container">
+                <h1>Galería</h1>
+                <p class="galeria-subtitle">Descubre la vida escolar y las actividades del Centro Educativo Luis Landa</p>
+
+                <div class="filtros">
+                    <button class="filtro-btn active" data-filter="todos">Todos</button>
+                    <button class="filtro-btn" data-filter="escuela">Escuela</button>
+                    <button class="filtro-btn" data-filter="estudiantes">Estudiantes</button>
+                    <button class="filtro-btn" data-filter="actividades">Actividades</button>
+                    <button class="filtro-btn" data-filter="eventos">Eventos</button>
+                </div>
+
+                <div class="galeria-grid">
+                    <!-- ESCUELA -->
+                    <div class="galeria-item scroll-animate" data-category="escuela">
+                        <img src="https://images.unsplash.com/photo-1427504494785-cddfb39ae229?w=400&h=300&fit=crop" alt="Aula de clases">
+                        <div class="galeria-overlay">
+                            <span class="galeria-overlay-text">Aula de Clases</span>
+                        </div>
+                    </div>
+
+                    <div class="galeria-item scroll-animate" data-category="escuela">
+                        <img src="https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=400&h=300&fit=crop" alt="Biblioteca">
+                        <div class="galeria-overlay">
+                            <span class="galeria-overlay-text">Biblioteca</span>
+                        </div>
+                    </div>
+
+                    <div class="galeria-item scroll-animate" data-category="escuela">
+                        <img src="https://images.unsplash.com/photo-1509043934328-9e03dc1a5ed0?w=400&h=300&fit=crop" alt="Patio escolar">
+                        <div class="galeria-overlay">
+                            <span class="galeria-overlay-text">Patio Escolar</span>
+                        </div>
+                    </div>
+
+                    <!-- ESTUDIANTES -->
+                    <div class="galeria-item scroll-animate" data-category="estudiantes">
+                        <img src="https://images.unsplash.com/photo-1577896857035-ef5de8c41cbf?w=400&h=300&fit=crop" alt="Estudiantes en clase">
+                        <div class="galeria-overlay">
+                            <span class="galeria-overlay-text">En la Clase</span>
+                        </div>
+                    </div>
+
+                    <div class="galeria-item scroll-animate" data-category="estudiantes">
+                        <img src="https://images.unsplash.com/photo-1516534775068-bb57ce4b8b09?w=400&h=300&fit=crop" alt="Niños estudiando">
+                        <div class="galeria-overlay">
+                            <span class="galeria-overlay-text">Aprendiendo</span>
+                        </div>
+                    </div>
+
+                    <div class="galeria-item scroll-animate" data-category="estudiantes">
+                        <img src="https://images.unsplash.com/photo-1503235930437-8c6293ba41f3?w=400&h=300&fit=crop" alt="Grupo de niños">
+                        <div class="galeria-overlay">
+                            <span class="galeria-overlay-text">Compañerismo</span>
+                        </div>
+                    </div>
+
+                    <!-- ACTIVIDADES -->
+                    <div class="galeria-item scroll-animate" data-category="actividades">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop" alt="Actividades deportivas">
+                        <div class="galeria-overlay">
+                            <span class="galeria-overlay-text">Deporte</span>
+                        </div>
+                    </div>
+
+                    <div class="galeria-item scroll-animate" data-category="actividades">
+                        <img src="https://images.unsplash.com/photo-1491841573634-28fb6d56504a?w=400&h=300&fit=crop" alt="Actividad artística">
+                        <div class="galeria-overlay">
+                            <span class="galeria-overlay-text">Arte</span>
+                        </div>
+                    </div>
+
+                    <div class="galeria-item scroll-animate" data-category="actividades">
+                        <img src="https://images.unsplash.com/photo-1427504494785-cddfb39ae229?w=400&h=300&fit=crop" alt="Laboratorio">
+                        <div class="galeria-overlay">
+                            <span class="galeria-overlay-text">Ciencia</span>
+                        </div>
+                    </div>
+
+                    <!-- EVENTOS -->
+                    <div class="galeria-item scroll-animate" data-category="eventos">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop" alt="Evento escolar">
+                        <div class="galeria-overlay">
+                            <span class="galeria-overlay-text">Festival</span>
+                        </div>
+                    </div>
+
+                    <div class="galeria-item scroll-animate" data-category="eventos">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop" alt="Evento comunitario">
+                        <div class="galeria-overlay">
+                            <span class="galeria-overlay-text">Comunidad</span>
+                        </div>
+                    </div>
+
+                    <div class="galeria-item scroll-animate" data-category="eventos">
+                        <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=400&h=300&fit=crop" alt="Celebración">
+                        <div class="galeria-overlay">
+                            <span class="galeria-overlay-text">Celebración</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-final">
+            <div class="container">
+                <h2>Cada aporte ayuda a construir un mejor futuro para nuestros estudiantes.</h2>
+                <a href="donaciones.html" class="btn btn-primary">Apoyar ahora</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- MODAL GALERÍA -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <img id="modal-image" src="" alt="Imagen ampliada">
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Centro Educativo Luis Landa</h3>
+                    <p>Educación, valores y compromiso con la comunidad rural de Honduras.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="galeria.html">Galería</a></li>
+                        <li><a href="donaciones.html">Donaciones</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>📧 camilaantunez0@gmail.com</p>
+                    <p>📍 Pie de La Cuesta, Gualaco, Olancho, Honduras</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Centro Educativo Luis Landa. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
